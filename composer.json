@@ -1,0 +1,25 @@
+{
+    "name": "artem/lv-dz1-2--composer_install",
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/Artem18rus/lv-dz1-2--composer_install.git"
+        }
+    ],
+    "description": "dz1-2",
+    "autoload": {
+        "psr-4": {
+            "Artem\\LvDz12ComposerInstall\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem18rus",
+            "email": "urart88@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/log": "^3.0"
+    }
+}
